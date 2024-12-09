@@ -4,12 +4,12 @@ import (
 	"os"
 	"strings"
 
-	"gopkg.in/pot.v1/cli"
-	"gopkg.in/pot.v1/cmd/pot/generate/client"
-	"gopkg.in/pot.v1/cmd/pot/generate/docs"
-	"gopkg.in/pot.v1/cmd/pot/generate/router"
-	"gopkg.in/pot.v1/cmd/pot/logo"
-	"gopkg.in/pot.v1/cmd/pot/run"
+	"github.com/go-pot/pot/cli"
+	"github.com/go-pot/pot/cmd/pot/generate/client"
+	"github.com/go-pot/pot/cmd/pot/generate/docs"
+	"github.com/go-pot/pot/cmd/pot/generate/router"
+	"github.com/go-pot/pot/cmd/pot/logo"
+	"github.com/go-pot/pot/cmd/pot/run"
 )
 
 func main() {

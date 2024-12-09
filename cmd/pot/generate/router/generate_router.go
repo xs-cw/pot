@@ -68,8 +68,8 @@ import (
 	controllers "{{.Swagger.Extensions.Package}}"
 	"net/http"
 
-	pot "gopkg.in/pot.v1"
-	router "gopkg.in/pot.v1/router"
+	pot "github.com/go-pot/pot"
+	router "github.com/go-pot/pot/router"
 )
 
 func {{.Function}}(p *pot.Pot, rs ...*router.Router) (r *router.Router) {

@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"gopkg.in/pot.v1/store"
+	"github.com/go-pot/pot/store"
 )
 
 func init() {

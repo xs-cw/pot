@@ -1,6 +1,6 @@
 package logo
 
-import "gopkg.in/pot.v1"
+import "github.com/go-pot/pot"
 
 var logo = `
  ______

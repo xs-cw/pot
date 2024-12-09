@@ -3,7 +3,7 @@ package cookiesstore
 import (
 	"net/url"
 
-	"gopkg.in/pot.v1/sessions"
+	"github.com/go-pot/pot/sessions"
 )
 
 func init() {

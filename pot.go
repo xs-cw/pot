@@ -1,7 +1,7 @@
-package pot // import "gopkg.in/pot.v1"
+package pot // import "github.com/go-pot/pot"
 
 import (
-	"gopkg.in/pot.v1/negroni"
+	"github.com/go-pot/pot/negroni"
 )
 
 type Pot struct {

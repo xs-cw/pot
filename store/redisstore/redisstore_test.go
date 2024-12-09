@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/go-pot/pot/store"
 	ffmt "gopkg.in/ffmt.v1"
-	"gopkg.in/pot.v1/store"
 )
 
 func TestA(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"gopkg.in/pot.v1/negroni"
+	"github.com/go-pot/pot/negroni"
 )
 
 var m = map[string]func(ur *url.URL) (Store, error){}

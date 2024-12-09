@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	"gopkg.in/pot.v1/store"
+	"github.com/go-pot/pot/store"
 )
 
 // RediStore stores sessions in a redis backend.
@@ -43,10 +43,10 @@ func (s *RediStore) SetSerializer(ss store.SessionSerializer) {
 	s.serializer = ss
 }
 
-//// Default is the one provided by this package value - `sessionExpire`.
-//// Set it to 0 for no restriction.
-//// Because we use `MaxAge` also in SecureCookie crypting algorithm you should
-//// use this function to change `MaxAge` value.
+// // Default is the one provided by this package value - `sessionExpire`.
+// // Set it to 0 for no restriction.
+// // Because we use `MaxAge` also in SecureCookie crypting algorithm you should
+// // use this function to change `MaxAge` value.
 func (s *RediStore) SetMaxAge(v int) {
 	s.MaxAge = v
 }
