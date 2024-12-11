@@ -1,7 +1,7 @@
 package pot // import "github.com/go-pot/pot"
 
 import (
-	"github.com/go-pot/pot/negroni"
+	"github.com/urfave/negroni"
 )
 
 type Pot struct {

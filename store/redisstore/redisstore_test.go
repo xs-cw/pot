@@ -14,8 +14,7 @@ func TestA(t *testing.T) {
 		ffmt.Mark(err)
 		return
 	}
-	d, err := s.Load("3")
-	ffmt.Mark(d)
+	err = s.Load("3", time.Now())
 	if err != nil {
 		ffmt.Mark(err)
 		return

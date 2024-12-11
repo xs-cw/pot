@@ -3,7 +3,7 @@ package pot
 import (
 	"net/http"
 
-	"github.com/go-pot/pot/sessions"
+	"github.com/go-pot/sessions"
 )
 
 type Content struct {

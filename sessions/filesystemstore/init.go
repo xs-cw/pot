@@ -3,7 +3,7 @@ package filesystemstore
 import (
 	"net/url"
 
-	"github.com/go-pot/pot/sessions"
+	"github.com/go-pot/sessions"
 )
 
 func init() {

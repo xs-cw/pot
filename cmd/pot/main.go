@@ -4,12 +4,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-pot/pot/cli"
 	"github.com/go-pot/pot/cmd/pot/generate/client"
 	"github.com/go-pot/pot/cmd/pot/generate/docs"
 	"github.com/go-pot/pot/cmd/pot/generate/router"
 	"github.com/go-pot/pot/cmd/pot/logo"
 	"github.com/go-pot/pot/cmd/pot/run"
+	"github.com/urfave/cli/v2"
 )
 
 func main() {

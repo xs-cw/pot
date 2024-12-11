@@ -27,10 +27,10 @@ type (
 	StringFlag = origin.StringFlag
 
 	// ShellCompleteFunc is an action to execute when the shell completion flag is set
-	ShellCompleteFunc = origin.ShellCompleteFunc
+	//ShellCompleteFunc = origin.ShellCompleteFunc
 
 	// Serializeder is used to circumvent the limitations of flag.FlagSet.Set
-	Serializeder = origin.Serializeder
+	//Serializeder = origin.Serializeder
 
 	// PathFlag is a flag with type string
 	PathFlag = origin.PathFlag
@@ -196,7 +196,7 @@ var (
 	NewContext = origin.NewContext
 
 	// InitCompletionFlag generates completion code
-	InitCompletionFlag = origin.InitCompletionFlag
+	//InitCompletionFlag = origin.InitCompletionFlag
 
 	HelpPrinterCustom = origin.HelpPrinterCustom
 
@@ -210,7 +210,7 @@ var (
 	// called on all members of the Errors slice and calls OsExiter with the last exit code.
 	HandleExitCoder = origin.HandleExitCoder
 
-	GenerateCompletionFlag = origin.GenerateCompletionFlag
+	//GenerateCompletionFlag = origin.GenerateCompletionFlag
 
 	FlagStringer = origin.FlagStringer
 
@@ -222,7 +222,7 @@ var (
 
 	// DefaultAppComplete returns an ActionFunc to run a default command if non were passed.
 	// Usage: `app.Action = cli.DefaultCommand("command")`
-	DefaultCommand = origin.DefaultCommand
+	//DefaultCommand = origin.DefaultCommand
 
 	// DefaultAppComplete prints the list of subcommands as the default app completion method
 	DefaultAppComplete = origin.DefaultAppComplete

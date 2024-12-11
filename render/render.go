@@ -50,14 +50,14 @@ type (
 
 	// BufferPool implements a pool of bytes.Buffers in the form of a bounded channel.
 	// Pulled from the github.com/oxtoacart/bpool package (Apache licensed).
-	BufferPool = origin.BufferPool
+	//BufferPool = origin.BufferPool
 )
 
 // Declaration
 var (
 
 	// NewBufferPool creates a new BufferPool bounded to the given size.
-	NewBufferPool = origin.NewBufferPool
+	//NewBufferPool = origin.NewBufferPool
 
 	// New constructs a new Render instance with the supplied options.
 	New = origin.New
